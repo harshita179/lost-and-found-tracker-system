@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false react-scripts build",
     "mobile:sync": "npx cap sync android",
     "mobile:build": "npm run build && npm run mobile:sync",
     "mobile:open": "npx cap open android",
