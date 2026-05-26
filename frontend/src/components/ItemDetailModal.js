@@ -57,7 +57,7 @@ const ItemDetailModal = ({ item, onClose, onUpdateStatus, onMatch, onDelete, use
   const [suggestedMatches, setSuggestedMatches] = useState([]);
   const [suggestionsLoading, setSuggestionsLoading] = useState(false);
   const [copyMessage, setCopyMessage] = useState('');
-
+//eslint-disable-next-line
   useEffect(() => {
     const matchedId =
       typeof item?.matchedItemId === 'string'
